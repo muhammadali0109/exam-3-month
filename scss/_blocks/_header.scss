@@ -1,0 +1,132 @@
+.header{
+    width: 1540px;
+    margin: 0 auto;
+    &__top{
+        background-color: #5B4A58;
+    }
+    &__basket{
+        position: fixed;
+        top: 10%;
+        margin: auto;
+        width: 1300px;
+        height: 400px;
+        border: 1px solid;
+        margin: 0 auto;
+        visibility: hidden;
+        background: #5B4A58;
+    }
+    &__open{
+        visibility: visible;
+    }
+    &__close{
+        color: white;
+        border: 0px;
+        margin-right: 20px;
+        background-color: #5B4A58;
+    }
+    &__t_con{
+        height: 40px;
+    }
+    &__t-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__t-itemss{
+        display: flex;
+    }
+    &__t-item{
+        display: flex;
+    }
+    
+    &__t-items{
+        display: flex;
+        background: #6D5B6A;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    &__t-link1{
+        color: white;
+    }
+    &__t-btn{
+        background-color: #5B4A58;
+        border: 0px ;
+    }
+    &__t-loc{
+        color: white;
+    }
+    &__t-g{
+        color: #6AAE55;
+    }
+    &__c-i{
+        color: #6AAE55;
+        margin: 10px 10px 0 0px ;
+    }
+    &__r-i{
+        color: white;
+        margin-right: 10px;
+    }
+    &__bottom{
+        box-shadow: 0px 0px 1px 0px grey;
+    }
+    &__b-con{
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu{
+        display: none;
+    }
+    &__nav-list{
+        display: flex;
+        column-gap: 53px;
+    }
+    &__b-list{
+        display: flex;
+        column-gap: 50px;
+        align-items: center;
+    }
+    &__icon{
+        margin-right: 18px;
+    }
+    &__b-item>select{
+        border: 0px solid;
+    }
+}
+
+
+@media only screen and (max-width:391px){
+    .header{
+        width: 390px;
+        &__t-itemss{
+            display: none;
+        }
+        &__t-link2{
+            display: none;
+        }
+        &__menu{
+            display: block;
+        }
+        &__nav{
+            width: 35%;
+            text-align: center;
+        }
+        &__nav-list{
+            display: none;
+        }
+        &__nav-list1{
+            display: block;
+        }
+        &__b-list{
+            width: 60%;
+        }
+        &__b-items{
+            display: none;
+        }
+        &__b-item{
+            display: flex;
+            column-gap:  5px;
+        }
+    }
+}

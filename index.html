@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">       
+        <div class="header__top">
+            <div class="header__basket" id="basket">
+            </div>
+            <div class="container header__t_con">
+                <ul class="header__t-list">
+                    <li class="header__t-itemss">    
+                        <i class="fa-solid fa-location-dot header__t-loc"></i>    
+                        <p class="header__t-g">g. Владивосток,</p>
+                        <p class="header__t-link1">ул. Пушкинская, 17 A</p>
+                    </li>
+                    <li class="header__t-items">
+                        <i class="fa-solid fa-phone
+                         header__c-i"></i>
+                    <div>
+                        <p class="header__t-link1">WhatsApp</p>
+                        <a class="header__t-link1"  href="">+ 7 808 353 53 35</a>
+                        <a class="header__t-link1 header__t-link2" href="">+ 7 888 888 88 88</a>
+                    </div>
+                    </li>
+                    <li class="header__t-item">
+                        <button class="header__close"  id="close">
+                            <i class="fa-sharp fa-solid fa-xmark"></i>
+                        </button>
+                        <button class="header__t-btn" id="open"><i 
+                               class="fa-solid fa-cart-shopping header__r-i"></i></button>                <p class="header__t-link1" >150 000 rub</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container header__b-con">
+                <nav class="header__nav">
+                    <p class="header__menu">X
+                        menu</p>
+                    <ul class="header__nav-list">
+                        <li class="header__n-item"><a class="header__n-link" href="#"></a>Каталог</li>
+                        <li class="header__n-item"><a class="header__n-link" href="#"></a>Скидки</li>
+                        <li class="header__n-item"><a class="header__n-link" href="#"></a>Отзывы</li>
+                        <li class="header__n-item"><a class="header__n-link" href="#"></a>Контакты</li>
+                    </ul>
+                </nav>
+                <ul class="header__b-list">
+                    <li class="header__b-itema">
+                            <img src="./imgs/logo.svg" alt="">
+                    </li>
+                    <li class="header__b-items">
+                    <select name="Информация дляклиента">         
+                        <option value="">Информация для клиента</option>
+                    </select>
+                    </li>
+                    <li class="header__b-items"><i class="fa-regular fa-circle-user header__icon"></i>Мои заказы</li>
+                    <li class="header__b-item">
+                        <p>rub.</p>
+
+                        <p>dol</p>
+                    </li>
+                </ul>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section class="section-1">
+            <img class="section-1__main-bg" src="./imgs/main_bgl.svg" alt="">
+            <div class="container section-1__con">
+                <div class="section-1__left">
+                        <p
+                        class="section-1__p">Главная > Карточка товара</p>
+                        <img class="section-1__vis" src="./imgs/gul1.png" alt="">
+                        <div class="section-1__include">
+                            <img class="section-1__img" src="./imgs/gul1.png" alt="">
+                            <img class="section-1__img" src="./imgs/gul2.png" alt="">
+                            <img class="section-1__img" src="./imgs/gul3.png" alt="">
+                            <img class="section-1__img" src="./imgs/gul4.png" alt="">
+                            <img class="section-1__img" src="./imgs/gul5.png" alt="">
+                        </div>
+                </div>
+                <div class="section-1__right" id="about">
+                    <h3>Букет из разноцветных роз</h3>
+                    <p>Размер:</p>
+                    <ul class="section-1__r-list1">
+                        <li class="section-1__btn">
+                            <div>
+                                <h3>Малый</h3><p>1 290 rub</p>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li class="section-1__btn">
+                            <div>
+                                <h3>Малый</h3><p>1 290 rub</p>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li class="section-1__btn">
+                            <div>
+                                <h3>Малый</h3><p>1 290 rub</p>
+                            </div>
+                            <span></span>
+                        </li>
+                    </ul>
+                    <div class="section-1__r-b">
+                        <h3>Состав</h3>
+                        <h3>Доставка и оплата</h3>
+                        <ul class="section-1__r-list2">
+                            <li>Гербера Оранжевая  —  11 шт.</li>
+                            <li>Гвоздика однобутонная розовая  —  7 шт.</li>
+                            <li>Хризантема кустовая Филин Грин  —  5 шт.</li>
+                            <li>Роза Шангри Ла  —  29 шт.</li>
+                            <li>Роза Пенни Лейн  —  29 шт.</li>
+                        </ul>
+                    </div>
+                    <div class="section-1__2">
+                        <div class="section-1__js">
+                            <button id="decrement"
+                            class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                            <span id="span" class="section-1__r-b-span">1</span>
+                            <button id="increment" class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <div class="section-1__active">
+                            <div class="">
+                                <p>Сумма:</p>
+                                <h3>100 000 rub.</h3>
+                            </div>
+                            <button class="section-1__b-btn" id="btn">
+                                <i class="fa-solid fa-cart-shopping header__r-i"></i>
+                                B корзину
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+        <section class="section">
+            <div class="container section__con">
+                <h2><span>Дополнить</span> Заказ</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        <img src="./imgs/section-1img.png" alt="">
+                        <div>
+                            <h4>Шок. конфеты "Лучшей маме"</h4>
+                            <p>1 200 rub</p>
+                            <div class="section__js">
+                                <button id="-"
+                                class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                                <span id="span1" class="section-1__r-b-span">1</span>
+                                <button id="+" class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            <button class="section__b-btn" id="btn1">+   Добавить</button>
+                        </div>
+                    </li>
+                    <li class="section__item">
+                        <img src="./imgs/section-1img2.png" alt="">
+                        <div>
+                            <h4>Шок. конфеты "Лучшей маме"</h4>
+                            <p>1 200 rub</p>
+                            <div class="section__js">
+                                <button
+                                class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                                <span  class="section-1__r-b-span">1</span>
+                                <button  class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            <button class="section__b-btn" id="btn2">
+                                    <i class="fa-solid fa-cart-shopping header__r-i"></i>
+                                    B корзину
+                                </button>
+                        </div>
+                    </li>
+                    <li class="section__item">
+                        <img src="./imgs/love.png" alt="">
+                        <div>
+                            <h4>Шок. конфеты "Лучшей маме"</h4>
+                            <p>1 200 rub</p>
+                            <div class="section__js">
+                                <button 
+                                class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                                <span class="section-1__r-b-span">1</span>
+                                <button class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            <button class="section__b-btn" id="btn3">
+                                    <i class="fa-solid fa-cart-shopping header__r-i"></i>
+                                    B корзину
+                                </button>
+                        </div>
+                    </li>
+                    <li class="section__item">
+                        <img src="./imgs/pinaple.png" alt="">
+                        <div>
+                            <h4>Шок. конфеты "Лучшей маме"</h4>
+                            <p>1 200 rub</p>
+                            <div class="section__js">
+                                <button 
+                                class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                                <span class="section-1__r-b-span">1</span>
+                                <button  class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            <button class="section__b-btn" id="btn4">
+                                    <i class="fa-solid fa-cart-shopping header__r-i"></i>
+                                    B корзину
+                                </button>
+                        </div>
+                    </li>
+                    <li class="section__item">
+                        <img src="./imgs/flowers.png" alt="">
+                        <div>
+                            <h4>Шок. конфеты "Лучшей маме"</h4>
+                            <p>1 200 rub</p>
+                            <div class="section__js">
+                                <button
+                                class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                                <span  class="section-1__r-b-span">1</span>
+                                <button  class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            <button class="section__b-btn" id="btn5">
+                                    <i class="fa-solid fa-cart-shopping header__r-i"></i>
+                                    B корзину
+                                </button>
+                        </div>
+                    </li>
+                    <li class="section__item">
+                        <img src="./imgs/leaf.png" alt="">
+                        <div>
+                            <h4>Шок. конфеты "Лучшей маме"</h4>
+                            <p>1 200 rub</p>
+                            <div class="section__js">
+                                <button 
+                                class="section-1__prev"><i class="fa-solid fa-minus"></i></button>
+                                <span class="section-1__r-b-span">1</span>
+                                <button  class="section-1__next"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            <button class="section__b-btn" id="btn6">
+                                    <i class="fa-solid fa-cart-shopping header__r-i"></i>
+                                    B корзину
+                                </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="section__inc-span">
+                    <div class="section__b-span">1</div>
+                    <div class="section__b-span">2</div>
+                    <div class="section__b-span">3</div>
+                    <div class="section__b-span">4</div>
+                    <div class="section__b-span">5</div>
+                </div>
+                <div class="section__d">
+                    <button class="section__b-button">Оформить заказ</button>
+                </div>
+            </div>
+        </section>
+        <section class="foot">
+            <div class="container foot__con">
+                <ul class="foot__list">
+                    <li class="foot__item">
+                        Каталог
+                    </li>
+                    <li class="foot__item">Отзывы</li>
+                    <li class="foot__item">Контакты</li>
+                    <li class="foot__item">
+                        <select class="foot__select">
+                            <option >
+                                Информация для клиента
+                            </option>
+                        </select>
+                    </li>
+                    <li class="foot__item">Оферта</li>
+                </ul>
+            </div>
+        </section> 
+    </main>
+    <footer class="footer">
+        <div class="container footer__con">
+            <ul class="footer__list">
+                <li class="footer__item">
+                  <h3>Контактная информация</h3>
+                  <div class="footer__div1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>g. Владивосток, <br> ул. Пушкинская, 17</p>
+                  </div>
+                  <div class="footer__div1">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+ 7 888 888 88 88</p>
+                  </div>
+                  <div class="footer__div1">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+ 7 888 888 88 88</p>
+                  </div>
+                  <div class="footer__div1">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Режим работы: <br>
+                        Пн-Сб  с 8:00  до 22:00</p>
+                  </div>
+                </li>
+                <li class="footer__item">
+                    <h3>Для посетителей</h3>
+                    <p>Оформление заказа</p>
+                    <p>Вопросы и ответы</p>
+                    <p>Изменение или отмена заказа</p>
+                    <p>Способы доставки и оплаты</p>
+                </li>
+                <li class="footer__item">
+                    <h3>Возникли вопросы? Свяжитесь с нами</h3>
+                    <input class="footer__input"  type="text" placeholder="Ваше имя">
+                    <input class="footer__input" type="text" placeholder="Моб. номер">
+                    <br>
+                    <input class="footer__input2" type="text"><br>
+                    <button class="footer__btn">
+                        Отправить
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <hr class="footer__hr">
+        <p class="footer__b">2019 Цветочная лавка.</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
+

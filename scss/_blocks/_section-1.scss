@@ -1,0 +1,211 @@
+.section-1{ 
+    width: 1540px;
+    height: 700px;
+    background: #E5E5E5;
+    margin: 0 auto;
+    background-image: url(/imgs/section-1-img.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    &__main-bg{
+        position: absolute;
+        z-index: 1;
+        margin-top: 500px;
+    }
+    &__con{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        width: 45%;
+    }
+    &__p{
+        margin: 32px 0px 36px;
+    }
+    &__vis{
+        width: 450px;
+        height: 380px;    
+    }
+    &__include{
+        column-gap: 20px;
+    }
+    &__img{
+        width: 74px;
+        height: 68px;
+        margin: 20px 16px 0px 0px; 
+    }
+    &__right{
+        width: 55%;
+    }
+    &__right>h3{
+        margin-top: 80px;
+        margin-bottom: 13px;
+    }
+    &__r-list1{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn{
+        display: flex;
+        width: 194px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 0px solid ;
+        margin-top: 9px;
+        align-items: center;
+        opacity: 80%;
+        justify-content: space-around;
+    }
+    &__btn:hover{
+        border: 1px solid #6AAE55;
+        opacity: 100%;
+    }
+    &__btn>span{
+        width: 14px;
+        height: 14px;
+        background-color: #E0E0E0;
+        border-radius: 40px;
+    }
+    &__btn:hover span{
+        background-color: #6AAE55;
+    }
+    &__r-b{
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    &__r-b>h3{
+        display: inline-block;  
+        margin-left: 25px;
+        color: #828282;
+        opacity: 90%;
+        margin-bottom: 18px;
+    }
+    &__r-b>h3:hover{
+        color: #5B4A58;
+        opacity: 100%;
+        border-bottom: 1px solid #5B4A58;
+        padding-bottom: 1px;
+    }
+    &__r-list2{
+        list-style: lower-alpha #6AAE55;
+        margin: 0px 0px 50px 25px;
+        padding-bottom: 20px;
+
+    }
+    &__r-list2>li{
+        margin-bottom: 12px;
+    }
+    &__2{
+        display: flex;
+    }
+    &__js{
+        display: flex;
+        width: 189px;
+        height: 68px;
+        background: #FFFFFF;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    &__prev{
+        width: 21px;
+        height: 21px;
+        border: 0px ;
+        border-radius: 4px;
+    }
+    &__next{
+        background: #6AAE55;
+        width: 21px;
+        height: 21px;
+        color: white;
+        border: 0px;
+        border-radius:  4px;
+    }
+    &__active{
+        display: flex;
+        width: 415px;
+        height: 68px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__b-btn{
+        width: 200px;
+        height: 48px;
+        background: #6AAE55;
+        border-radius: 10px;
+        border: 0px;
+        text-align: center;
+        color: #fff;
+    }
+    &__btn-js{
+        background-color: #BDBDBD;
+    }
+
+}
+
+@media only screen and (max-width:391px){
+    .section-1{
+        width: 390px;
+        background-image: none;
+       &__main-bg{
+        display: none;
+       } 
+       &__con{
+        flex-direction: column;
+       }
+       &__left{
+        width: 100%;
+       }
+       &__p{
+        margin: 23px 0px;
+        width: 100%;
+       }
+       &__vis{
+        width: 350px;
+        height: 310px;
+        margin: 0 auto;
+       }
+       &__include{
+        display: flex;
+        width: 100%;
+        column-gap: 5px;
+       }
+       &__img{
+        width: 55px;
+        height: 50px;
+       }
+       &__right{
+        text-align: center;
+        width: 100%;
+        background: #e5e5e5;
+       }
+       &__r-list1{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+       }
+       &__btn{
+        width: 350px;
+        height: 80px;
+       }
+       &__r-list2{
+        width: 90%;
+       }
+       &__2{
+        flex-direction: column;
+       }
+       &__js{
+        width: 90%;
+        margin: 0 auto 30px;
+       }
+       &__active{
+        width: 90%;
+        margin-bottom: 30px;
+       }
+    }
+
+}

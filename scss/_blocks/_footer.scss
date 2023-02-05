@@ -1,0 +1,106 @@
+.footer{
+    height: 363px;
+    width: 1540px;
+    margin: 0 auto;
+    background: #5B4A58;
+    &__con{
+        border: 1px solid #5B4A58;
+        height: 87%;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+
+    }
+    &__item{
+        display: inline-block;
+    }
+    &__item>h3{
+        color: #6AAE55;
+        margin-bottom: 20px;
+    }
+    &__item>p{
+        color: white;
+        margin-bottom: 25px;
+    }
+    &__div1{
+        margin-bottom: 20px;
+        display: flex;
+        color: white;
+        column-gap: 10px;
+        align-items: center;
+    }
+    &__input{
+        width: 200px;
+        height: 33px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        border: 0px ;
+    }
+    &__input2{
+        width: 415px;
+        height: 75px; 
+        border-radius: 2px;
+        border: 0px ;
+    }
+    &__btn{
+        background: #6AAE55;
+        border-radius: 5px;
+        width: 222px;
+        height: 40px;
+        border: 0px;
+        margin: 10px 0px 0px 195px;
+        
+    }
+    &__hr{
+        height: 1px;
+        color: #A29BB4;
+
+    }
+    &__b{
+        text-align: center;
+        color: white;
+        margin-top: 5px;
+        opacity: 80%;
+    }
+}
+
+@media only screen and (max-width: 391px){
+    .footer{
+        width: 390px;
+        height: 1000px;
+        &__list{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__input{
+            display: flex;
+            width: 350px;
+            height: 33px;
+            margin:20px  auto;
+            align-items:center;
+        }
+        &__input2{
+            display: flex;
+            width: 350px;
+            height: 75px;
+            align-items:center;
+            margin: 0px auto 10px;
+        }
+        &__btn{
+            width: 350px;
+            height: 40px;
+            display: flex;
+            margin: 0 auto;
+            text-align: center;
+            align-items: center;
+            color: white;
+        }&__p{
+            margin-top: 20px;
+        }
+
+    }
+    
+}
